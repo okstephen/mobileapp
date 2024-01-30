@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid grey;
+    width: fit-content;
+    background-color: #F6F7F9;
+}
+
+.general .head div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.general .head div span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.general .head .battery {
+    padding-left: 70px;
+}
+
+.general .head .second-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 150px;
+}
+
+.general .head .second-line div {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.general .head .second-line .icon-img iconify-icon {
+    font-size: 1.2rem;
+}
+
+.general .head .second-line .icon-img div {
+    gap: 2px;
+}
+
+.general .form-area {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.general .form-area .welcome {
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.general .form-area .welcome span {
+    color: #A5A6A8;
+}
+
+.general .form-area .input-area {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.general .form-area .input-area div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.general .form-area .input-area div div {
+    position: relative
+}
+
+.general .form-area .input-area div div iconify-icon {
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    font-size: 1.2rem;
+}
+
+input[type="password"] {
+    padding: 25px;
+    margin-left: 10px;
+    width: 320px;
+    border: 1.5px solid #A5A6A8;
+    background-color: white;
+    border-radius: 3px;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: #A5A6A8;
+}
+
+.general .form-area .input-area p {
+    text-align: end;
+    margin-right: 9px;
+    color: #2D4E7D;
+}
+
+.general .form-area .input-area .unlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+    padding: 20px;
+}
+
+.general .form-area .input-area .unlock span {
+    color: #A5A6A8;;
+}
+
+button[type="submit"] {
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #FF8201;
+    color: white;
+    border: 1px solid #FF8201;
+    border-radius: 3px;
+    width: 370px;
+}
+
+.general .form-area .payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.general .form-area .payment span {
+    border: 1px solid #E6EBEF;
+    background-color: #E6EBEF;
+    border-radius: 3px;
+    padding: 15px;
+    width: 155px;
+    position: relative;
+}
+
+.general .form-area .payment span p {
+    font-size: medium;
+    font-weight: 600;
+    color: #2D4E7D;
+}
+
+.general .form-area .payment span iconify-icon {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 1.5rem;
+    color: #2D4E7D;
+}
+
+.general .footer {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #A5A6A8;
+    border: 1px solid #FAFAFA;
+    background-color: white;
+}
+
+.general .footer .login-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.general .footer .login-service .log {
+    color: #2D4E7D;
+    font-weight: 600;
+}
+
+.general .footer .login-service div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.general .footer .support {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.general .footer .support div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+
+.general .footer div iconify-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+}
